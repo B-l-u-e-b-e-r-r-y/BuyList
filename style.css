@@ -1,0 +1,82 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+html {
+  background-color: #eee;
+}
+
+#buylist {
+  display: inline-block;
+  padding: 20px;
+  background-color: #68BDEA;
+}
+
+h1 {
+  padding: 20px;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #394694;
+  color: white;
+}
+
+#items_list {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.buy_item {
+  padding: 10px 20px;
+  list-style: none;
+  margin-top: 10px;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.buy_item input {
+  width: 100px;
+  padding: 2px;
+}
+.buy_item .price {
+  display: inline-block;
+  position: absolute;
+  padding: 0px 8px;
+  right: 50px;
+}
+.buy_item .delbtn {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  padding: 0px 6px;
+  right: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buy_item .delbtn:hover {
+  background-color: #394694;
+  color: #fff;
+}
+.buy_item .addbtn {
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+  transition: 0.5s;
+  background-color: #fff;
+}
+.buy_item .addbtn:hover {
+  background-color: #394694;
+  color: #fff;
+}
